@@ -36,5 +36,15 @@ public class SwapTwoNumber {
 		
 		System.out.println("After Swap First Number "+a+" Second Number "+b);
 	}
+	
+	public static void SNumber(int a,int b) {
+		int c;
+		c=a;
+		a=b;
+		b=c;
+		System.out.println("First Number A= " + a);
+		System.out.println("Second Number B= "+b);
+		System.out.println("Test");
+	}
 
 }
